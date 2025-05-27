@@ -9,3 +9,4 @@ _site/
 Gemfile.lock
 .idea
 venv/
+gcp-key.json
