@@ -1,0 +1,211 @@
+country,city,population
+USA,New York,8419600
+USA,Los Angeles,3980400
+USA,Chicago,2716000
+USA,Houston,2328000
+USA,Phoenix,1690000
+USA,Philadelphia,1584200
+USA,San Antonio,1547200
+USA,San Diego,1424500
+USA,Dallas,1341000
+USA,San Jose,1035400
+USA,Austin,1002700
+USA,Jacksonville,950000
+USA,Fort Worth,918000
+USA,Columbus,905000
+USA,Charlotte,897000
+USA,San Francisco,884000
+USA,Indianapolis,876000
+USA,Seattle,753000
+USA,Denver,727000
+USA,Washington,705000
+India,Mumbai,12442373
+India,Delhi,11007835
+India,Bangalore,8436675
+India,Hyderabad,6809970
+India,Ahmedabad,5570585
+India,Chennai,4646732
+India,Kolkata,4486679
+India,Surat,4467797
+India,Pune,3124458
+India,Jaipur,3046163
+India,Lucknow,2815601
+India,Kanpur,2767031
+India,Nagpur,2405665
+India,Indore,1964086
+India,Thane,1818872
+India,Bhopal,1795648
+India,Visakhapatnam,1728128
+India,Patna,1683200
+India,Vadodara,1670806
+India,Ghaziabad,1648643
+Germany,Berlin,3769000
+Germany,Hamburg,1841000
+Germany,Munich,1472000
+Germany,Cologne,1086000
+Germany,Frankfurt,763000
+Germany,Stuttgart,635000
+Germany,Düsseldorf,620000
+Germany,Dortmund,588000
+Germany,Essen,583000
+Germany,Leipzig,582000
+Germany,Bremen,567000
+Germany,Dresden,556000
+Germany,Hannover,535000
+Germany,Nuremberg,518000
+Germany,Duisburg,501000
+Germany,Bochum,365000
+Germany,Wuppertal,355000
+Germany,Bielefeld,334000
+Germany,Bonn,329000
+Germany,Münster,316000
+France,Paris,2161000
+France,Marseille,861000
+France,Lyon,516000
+France,Toulouse,493000
+France,Nice,341000
+France,Nantes,318000
+France,Strasbourg,284000
+France,Montpellier,277000
+France,Bordeaux,254000
+France,Lille,232000
+France,Rennes,217000
+France,Reims,183000
+France,Le Havre,170000
+France,Toulon,168000
+France,Grenoble,158000
+France,Dijon,154000
+France,Angers,153000
+France,Nîmes,150000
+France,Saint-Étienne,149000
+France,Le Mans,144000
+Spain,Madrid,3266000
+Spain,Barcelona,1620000
+Spain,Valencia,791000
+Spain,Seville,688000
+Spain,Zaragoza,675000
+Spain,Málaga,578000
+Spain,Murcia,460000
+Spain,PalmadeMallorca,416000
+Spain,LasPalmas,381000
+Spain,Bilbao,346000
+Spain,Alicante,337000
+Spain,Córdoba,326000
+Spain,Valladolid,298000
+Spain,Vigo,295000
+Spain,Gijón,271000
+Spain,Hospitalet,264000
+Spain,A Coruña,246000
+Spain,Vitoria-Gasteiz,250000
+Spain,Granada,234000
+Spain,Elche,232000
+China,Shanghai,24800000
+China,Beijing,21500000
+China,Chongqing,16382376
+China,Shenzhen,12528300
+China,Guangzhou,13500000
+China,Tianjin,13200000
+China,Chengdu,12300000
+China,Wuhan,11000000
+China,Hangzhou,10500000
+China,Nanjing,9300000
+China,Shenyang,8200000
+China,Harbin,7400000
+China,Suzhou,7400000
+China,Xi’an,8700000
+China,Qingdao,6200000
+China,Dalian,6100000
+China,Zhengzhou,7000000
+China,Jinan,7100000
+China,Foshan,7200000
+China,Ningbo,8000000
+Japan,Tokyo,13960000
+Japan,Yokohama,3740000
+Japan,Osaka,2750000
+Japan,Nagoya,2300000
+Japan,Sapporo,1950000
+Japan,Kobe,1530000
+Japan,Fukuoka,1600000
+Japan,Kawasaki,1540000
+Japan,Saitama,1300000
+Japan,Hiroshima,1200000
+Japan,Sendai,1080000
+Japan,Kitakyushu,940000
+Japan,Chiba,980000
+Japan,Sakai,830000
+Japan,Niigata,800000
+Japan,Hamamatsu,800000
+Japan,Kumamoto,740000
+Japan,Okayama,720000
+Japan,Shizuoka,700000
+Japan,Naha,680000
+Indonesia,Jakarta,10500000
+Indonesia,Surabaya,2800000
+Indonesia,Bandung,2500000
+Indonesia,Medan,2200000
+Indonesia,Bekasi,2100000
+Indonesia,Tangerang,2000000
+Indonesia,Depok,1900000
+Indonesia,Semarang,1800000
+Indonesia,Palembang,1700000
+Indonesia,South Tangerang,1600000
+Indonesia,Malang,1500000
+Indonesia,Padang,1300000
+Indonesia,Batam,1200000
+Indonesia,Pekanbaru,1100000
+Indonesia,Bogor,1000000
+Indonesia,Bandar Lampung,950000
+Indonesia,Cimahi,900000
+Indonesia,Denpasar,850000
+Indonesia,Samarinda,800000
+Indonesia,Tasikmalaya,750000
+Nigeria,Lagos,21000000
+Nigeria,Kano,4000000
+Nigeria,Ibadan,3800000
+Nigeria,Abuja,3500000
+Nigeria,Port Harcourt,3000000
+Nigeria,Benin City,2200000
+Nigeria,Maiduguri,2100000
+Nigeria,Zaria,1800000
+Nigeria,Aba,1600000
+Nigeria,Jos,1500000
+Egypt,Cairo,10200000
+Egypt,Alexandria,5200000
+Egypt,Giza,4400000
+Egypt,Shubra El Kheima,1000000
+Egypt,Port Said,750000
+Egypt,Suez,700000
+Egypt,Luxor,600000
+Egypt,Asyut,400000
+Egypt,Ismailia,400000
+Egypt,Faiyum,350000
+South Africa,Johannesburg,5700000
+South Africa,Cape Town,4600000
+South Africa,Durban,3900000
+South Africa,Pretoria,2400000
+South Africa,Port Elizabeth,1200000
+South Africa,Bloemfontein,750000
+South Africa,East London,680000
+South Africa,Nelspruit,630000
+South Africa,Kimberley,600000
+South Africa,Pietermaritzburg,550000
+Kenya,Nairobi,4700000
+Kenya,Mombasa,1200000
+Kenya,Kisumu,600000
+Kenya,Eldoret,500000
+Kenya,Nakuru,400000
+Kenya,Thika,350000
+Kenya,Malindi,300000
+Kenya,Kitale,250000
+Kenya,Garissa,200000
+Kenya,Kakamega,200000
+Cameroon,Douala,3600000
+Cameroon,Yaoundé,3100000
+Cameroon,Garoua,800000
+Cameroon,Bamenda,700000
+Cameroon,Maroua,650000
+Cameroon,Bafoussam,600000
+Cameroon,Buea,400000
+Cameroon,Ebolowa,250000
+Cameroon,Limbe,200000
+Cameroon,Kribi,150000
