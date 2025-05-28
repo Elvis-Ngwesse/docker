@@ -1,0 +1,15 @@
+FROM python:3.10-slim
+
+WORKDIR /app
+
+# Copy only app.py
+COPY error_test.py .
+
+# Install required packages if needed
+RUN pip install flask
+
+# Expose the port (optional but useful)
+EXPOSE 8080
+
+# Run the app
+CMD ["python", "error_test.py"]

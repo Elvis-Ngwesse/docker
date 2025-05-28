@@ -83,13 +83,15 @@ ansible all \
 # 🛠️ Build Docker image
 # -----------------------------------------------------------------------------
 
-docker build -t cpu-test ./docker-linux/files/
+docker build -f ./docker-linux/files/Dockerfile.cpu -t cpu-container ./docker-linux/files/
+docker build -f ./docker-linux/files/Dockerfile.error -t error-container ./docker-linux/files/
 
 # -----------------------------------------------------------------------------
 # 🧪 Run Docker container with CPU and memory limits
 # -----------------------------------------------------------------------------
 
-docker run --cpus="0.5" --memory="512m" cpu-test
+docker run --cpus="0.5" --memory="512m" cpu-container
+docker run -p 8080:8080 error-container
 
 # -----------------------------------------------------------------------------
 # 📊 Open new terminal and run commands
@@ -103,6 +105,8 @@ docker run --cpus="0.5" --memory="512m" cpu-test
 # - df -h
 # - uname -a
 # - whoami
+# docker ps
+# docker logs container-name
 
 
 
