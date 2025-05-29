@@ -1,0 +1,44 @@
+version: '3.9'  # Compose file version
+
+services:
+    mysql:
+        image: mysql:8.0
+        container_name: mysql_db
+        restart: always              # Restart policy if container crashes
+        env_file:
+            - .env                    # Load env vars from .env file
+        environment:
+            MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}  # Override or set env vars
+            MYSQL_DATABASE: ${MYSQL_DATABASE}
+        ports:
+            - "3306:3306"             # Expose port 3306 externally mapped to container port 3306
+        volumes:
+            - mysql_data:/var/lib/mysql  # Persist MySQL data on host (named volume)
+            - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql  # Initialize DB on startup
+        networks:
+            - backend_net             # Assign to custom network
+
+    flask:
+        build:
+            context: ./app            # Build context folder for Dockerfile
+            dockerfile: Dockerfile    # Specify Dockerfile explicitly
+        container_name: flask_app
+        restart: on-failure         # Restart only on failure (max retries depends on Docker defaults)
+        depends_on:
+            - mysql                   # Wait for mysql service before starting flask
+        environment:
+            MYSQL_HOST: mysql         # Point flask to mysql container by service name
+            MYSQL_USER: root
+            MYSQL_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+            MYSQL_DB: ${MYSQL_DATABASE}
+        ports:
+            - "5001:5001"             # Map flask port 5000 to host 5000
+        networks:
+            - backend_net
+
+volumes:
+    mysql_data:                   # Named volume for persistent MySQL storage
+
+networks:
+    backend_net:                  # Custom network to enable communication between containers
+        driver: bridge              # Use bridge driver (default for single host Docker networking)
