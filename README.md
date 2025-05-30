@@ -7,6 +7,9 @@ managing files within Docker environments.
 - Go to the official Docker download page: https://www.docker.com/products/docker-desktop
 - docker --version
 
+# ✅ Test Docker
+Run a test container
+- docker run hello-world
 
 # ✅ Windows
 - Open Command Prompt or PowerShell
